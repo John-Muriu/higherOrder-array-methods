@@ -106,3 +106,7 @@ console.log(techCompany);
 //create an array of names
 const companyNames = companies.map((company) => `${company.name} [${company.end - company.start}]`);
 console.log(companyNames);
+
+//create an array of  company years
+const compaYear = companies.map(company => company.end - company.start);
+console.log(compaYear);
