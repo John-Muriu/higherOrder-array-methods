@@ -124,3 +124,8 @@ const agesSquare = ages
     // .map(age => Math.sqrt(age))
     .map(age => age * 3);
 console.log(agesSquare);
+
+//createan array to add 2 to the ages
+const agesAdd = ages
+    .map(age => age / 2);
+console.log(agesAdd);
