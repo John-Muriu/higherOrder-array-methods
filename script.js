@@ -129,3 +129,7 @@ console.log(agesSquare);
 const agesAdd = ages
     .map(age => age / 2);
 console.log(agesAdd);
+
+//.sort companies
+const sortComp = companies.sort((a, b) => (a.start > b.end));
+console.log(sortComp);
