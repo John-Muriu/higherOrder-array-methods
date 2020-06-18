@@ -144,3 +144,10 @@ console.log(sortAges);
 // sorting ages in descending order 
 const sortAgesDes = ages.sort((a, b) => (b - a));
 console.log(sortAgesDes);
+
+//reduce adding the total number of ages
+let ageSum = 0;
+for (let i = 0; i < ages.length; i++) {
+    ageSum += ages[i];
+}
+console.log(ageSum);
