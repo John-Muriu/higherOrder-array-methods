@@ -137,3 +137,8 @@ console.log(sortComp);
 //sort ages 
 const sortAges = ages.sort();
 console.log(sortAges);
+
+//sort company
+const sortCompany = companies.sort();
+
+console.log(sortCompany);
