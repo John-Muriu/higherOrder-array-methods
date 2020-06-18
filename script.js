@@ -158,3 +158,14 @@ console.log(ageSum);
 //get all years of all the companies
 const totalYears = companies.reduce((total, company) => (total + company.end - company.start), 0);
 console.log(totalYears);
+
+//combine methods
+
+const combined = ages
+    .map(age => age * 2)
+    .filter(age => age >= 20)
+    .sort((a, b) => (a - b))
+    .reduce((a, b) => (a + b), 0);
+
+
+console.log(combined);
