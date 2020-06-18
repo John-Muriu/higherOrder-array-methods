@@ -118,3 +118,9 @@ console.log(companyName);
 //create an array when the company closd doors
 let companyEnd = companies.map(company => `${company.name} [${company.end}]`);
 console.log(companyEnd);
+
+//create a test map for .math properties
+const agesSquare = ages
+    // .map(age => Math.sqrt(age))
+    .map(age => age * 3);
+console.log(agesSquare);
