@@ -146,8 +146,11 @@ const sortAgesDes = ages.sort((a, b) => (b - a));
 console.log(sortAgesDes);
 
 //reduce adding the total number of ages
-let ageSum = 0;
-for (let i = 0; i < ages.length; i++) {
-    ageSum += ages[i];
-}
+// let ageSum = 0;
+// for (let i = 0; i < ages.length; i++) {
+//     ageSum += ages[i];
+// }
+// console.log(ageSum);
+// total ages using the reduce method
+const ageSum = ages.reduce((total, age) => (total + age), 0);
 console.log(ageSum);
