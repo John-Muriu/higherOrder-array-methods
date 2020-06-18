@@ -154,3 +154,7 @@ console.log(sortAgesDes);
 // total ages using the reduce method
 const ageSum = ages.reduce((total, age) => (total + age), 0);
 console.log(ageSum);
+
+//get all years of all the companies
+const totalYears = companies.reduce((total, company) => (total + company.end - company.start), 0);
+console.log(totalYears);
