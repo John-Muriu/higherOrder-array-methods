@@ -114,3 +114,7 @@ console.log(compaYear);
 //create an array of company names
 const companyName = companies.map(company => company.name);
 console.log(companyName);
+
+//create an array when the company closd doors
+let companyEnd = companies.map(company => `${company.name} [${company.end}]`);
+console.log(companyEnd);
