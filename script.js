@@ -134,11 +134,14 @@ console.log(agesAdd);
 const sortComp = companies.sort((a, b) => (a.start > b.end));
 console.log(sortComp);
 
-//sort ages 
-const sortAges = ages.sort();
+//sort ages in ascending order
+const sortAges = ages.sort((a, b) => (a - b));
 console.log(sortAges);
+// sorting ages in descending order 
+const sortAgesDes = ages.sort((a, b) => (b - a));
+console.log(sortAgesDes);
 
 //sort company
-const sortCompany = companies.sort();
+// const sortCompany = companies.sort();
 
-console.log(sortCompany);
+// console.log(sortCompany);
