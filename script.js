@@ -133,7 +133,7 @@ console.log(agesAdd);
 //.sort companies
 const sortComp = companies.sort((a, b) => (a.start > b.end));
 console.log(sortComp);
-sort company
+// sort company
 const sortCompany = companies.sort();
 
 console.log(sortCompany);
