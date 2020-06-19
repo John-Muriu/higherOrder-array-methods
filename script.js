@@ -146,11 +146,12 @@ const sortAgesDes = ages.sort((a, b) => (b - a));
 console.log(sortAgesDes);
 
 //reduce adding the total number of ages
-// let ageSum = 0;
-// for (let i = 0; i < ages.length; i++) {
-//     ageSum += ages[i];
-// }
-// console.log(ageSum);
+let ageSm = 0;
+for (let i = 0; i < ages.length; i++) {
+    ageSm += ages[i];
+}
+console.log(ageSm);
+
 // total ages using the reduce method
 const ageSum = ages.reduce((total, age) => (total + age), 0);
 console.log(ageSum);
@@ -159,7 +160,8 @@ console.log(ageSum);
 const totalYears = companies.reduce((total, company) => (total + company.end - company.start), 0);
 console.log(totalYears);
 
-//combine methods
+//combine methods down
+
 
 const combined = ages
     .map(age => age * 2)
